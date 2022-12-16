@@ -1,0 +1,112 @@
+.navbar{
+    background-color:black ;
+   
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.navimg{
+    background-color: black;
+    width: 30%;
+    float: left;
+}
+.navimg img {
+    width: 100px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.navcontent {
+    width: 30%;
+    float: right;
+    background-color:black;
+}
+.clearfix {
+ clear: both;
+}
+.navbar .navcontent ul li {
+  list-style: none;
+  float: left;
+  padding: 15px 25px;
+  font-size: 20px;
+
+}
+.navbar .navcontent ul li a {
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .home {
+    background-image: url(sailboat.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+ }
+ .homecontent {
+    text-align: center;
+    margin-top: 200px;
+    font-size:xx-large;
+    width: 80%;
+    margin: auto;
+ }
+ .home .homecontent button{
+    padding: 15px 25px;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-weight:800;
+    font-size:medium;
+    text-align: center;
+    margin: 4px 2px;
+    display: inline-block;
+ }
+ .homecontent h2 {
+     font-weight: 500;
+ }
+.ourteam-heading {
+    text-align: center;
+
+}
+.ourteam-heading h2 {
+    margin-bottom: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.item{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+ 
+}
+.item img{
+    border-radius: 50%;
+    border: 3px solid black;
+    outline-style: solid ;
+    outline-width:  5px;
+}
+.ourteam-content {
+    width: 80%;
+    margin: auto;
+ 
+}
+.pheading {
+    text-align: center;
+    margin: 50px 0px;
+}
+.pheading h2 {
+    font-weight: 100;
+    font-family:  Arial, Helvetica, sans-serif;
+} 
+.pimg {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    margin: 15px 0px;
+}
+.pimg img {
+    border-left-style: solid;
+    border-width:20px;
+}
